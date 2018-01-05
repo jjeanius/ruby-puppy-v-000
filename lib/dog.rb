@@ -14,15 +14,12 @@ class Dog
   def self.all?
     @@all.each do |name|
       puts "#{name}"
-    end  
+    end
   end
 
   def new
     @@new
   end
 
-  def name
-    @@name
-  end
 
 end
