@@ -21,5 +21,8 @@ class Dog
     @@new
   end
 
+  def name
+    @@name
+  end
 
 end
